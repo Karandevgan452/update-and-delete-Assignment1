@@ -9,7 +9,7 @@ function App() {
   // const [item, setItem] = useState(null);
   // pass the item to UpdateItem as a prop
 
-  return <UpdateItem />;
+  return <UpdateItem item={{ id: "2edsds", name: "Karan" }} />;
 }
 
 export default App;
